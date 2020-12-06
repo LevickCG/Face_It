@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin_win</class>
+ <widget class="QWidget" name="admin_win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>561</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="text">
+    <string>尊敬的管理员用户，欢迎您，请选择相关功能</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>100</y>
+     <width>181</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="psbut_face_rec">
+      <property name="text">
+       <string>识别人脸</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="psbut_adduser">
+      <property name="text">
+       <string>增加用户</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="psbut_deluser">
+      <property name="text">
+       <string>删除用户</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="psbut_modf_user">
+      <property name="text">
+       <string>修改用户人脸信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="psbut_modf_user_2">
+      <property name="text">
+       <string>显示日志</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="psbut_back">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>340</y>
+     <width>179</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>psbut_face_rec</tabstop>
+  <tabstop>psbut_adduser</tabstop>
+  <tabstop>psbut_deluser</tabstop>
+  <tabstop>psbut_modf_user</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
